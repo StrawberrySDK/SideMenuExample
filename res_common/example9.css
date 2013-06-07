@@ -1,0 +1,51 @@
+#gridview_example9{
+    pivot: 0.5 0;
+    left: center;
+    top: 0px;
+    bottom: 0px;
+    padding-top: 20px;
+}
+
+#name{
+    font-size: 18px;
+    font-color: #222222;
+    pivot: 0 baseline;
+    left: 15px;
+    bottom: center - 5px;
+}
+
+#rect1{
+    pivot: 0 0;
+    color: #1FC2FF;
+    top: 118;
+    height: 2px;
+    left: 0;
+    right: 0;
+}
+
+#connect{
+    pivot: 0 baseline;
+    left: 10px;
+    top: 33px;
+    font-size: 14px;
+}
+
+#rect_connect{
+    pivot: 0.5 1;
+    left: center;
+    height: 2px;
+    color: #595959;
+    bottom: 0;
+}
+
+#rect_cell{
+    pivot: 0.5 0;
+    bottom: 0;
+    left: center;
+    height: 1px;
+    color: #292929;
+}
+
+#background_scene{
+    background-style: color(#223344); 
+}

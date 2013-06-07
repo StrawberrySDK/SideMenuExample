@@ -1,0 +1,33 @@
+#button1{
+	pivot: 0.5 0;
+	top: 180px;
+	left: center;
+}
+
+#button2{
+	pivot: 0.5 0;
+	top: 280px;
+	left: center;
+}
+
+#button2:highlighted{
+	background-image: button_pressed.png;
+}
+
+
+#button3{
+	pivot: 0.5 0;
+	top: center;
+	left: center;
+}
+
+#button3:highlighted{
+	background-image: button_pressed.png;
+}
+
+
+#img_arrow{
+	top: center;
+	left: center +100px;
+	background-image: arrow.png;
+}

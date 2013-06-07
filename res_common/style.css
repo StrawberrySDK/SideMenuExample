@@ -1,0 +1,74 @@
+#background_scene{
+    background-style: color(#111111); 
+}
+
+.bg_primary{
+	background-style: color(#111111);
+	color: #111111;
+}
+
+.bg_secondary{
+	background-style: color(#222222);
+	color: #222222;
+}
+
+.bg_tertiary{
+	background-style: color(#b9b9b9);
+	color: #b9b9b9;
+}
+
+.logo_strawberry{
+	pivot: 0.5 0;
+	top: 10px;
+	left: center;
+}
+
+.text{
+    color: #ffffff;
+	font-size: 14px;
+	pivot: 0 baseline;
+}
+
+.button{
+	width: 80%;
+	height: 40px;
+	background-image: button_normal.png;
+	background-style: ninepatch(4,4);
+}
+
+.button:highlighted{
+	background-image: button_pressed.png;
+}
+
+.text_button{
+	color: #ffffff;
+	pivot: 0.5 baseline;
+	left: center;
+	top: center +  8px;
+	font-size: 20px;
+}
+
+.cell{
+	pivot: 0 0;
+    top: 0px;
+    height: 50px;
+    background-style: none;
+}
+
+.cell:highlighted{
+    background-style: color(#9933b5e5);
+}
+
+.txt_cell{
+	color: #ffffff;
+}
+
+.cell_header{
+    pivot: 0 0;
+    top: 0px;
+    height: 40px;
+}
+
+.grid{
+    width: 90%;
+}

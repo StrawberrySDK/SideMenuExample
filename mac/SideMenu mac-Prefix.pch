@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'SideMenu mac' target in the 'SideMenu mac' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
